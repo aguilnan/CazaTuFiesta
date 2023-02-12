@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" >
+	<link href='https://fonts.googleapis.com/css?family=Anek Odia' rel='stylesheet'>
+	<script src="scripts/bootstrap.bundle.min.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popper.min.js"></script>	
+      
+	<title>Caza tu Fiesta</title>
+</head>
+
+
+<header>
+	<div class="menu row col-12">    	
+		<ul class="uppermenu">		
+			<li>
+				<img src="Images/logobanner.png" class="logo">
+			</li>
+			<li>
+				<a class="selectmenu" href="index.html">Quienes Somos</a>
+			</li>
+			<li>
+				<a class="selectmenu" href="pagina2.html">Alta Usuarios</a>
+			</li>
+			<li>
+				<a class="selectmenu" href="">Alta Proveedores de Servicios</a>
+			</li>
+			<li>
+				<a class="selectmenu" href="">Ingresar</a>
+			</li>
+		</ul>
+	</div>
+</header>
+<body>
+<!-- COMENTARIOS EN HTML -->
+
+<div class="busqueda col-12">
+  <br>
+    <label for="selectFotos">¿Que buscas?</label>
+    <select name="selectFotos" id="selectFotos">
+      <option value="I1">Mesa de dulces</option>
+      <option value="I2">Pasteles</option>
+      <option value="I3">Dulces recuerdos</option>
+    </select>
+  <input type="button" class ="btn btn-primary" value="Click aqui" onclick="funcClick();" />
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="container col-12">
+
+    <ul class="slider">
+      <li id="slide1">
+        <img id="im1" src="Images/I1/1.jpg"/>
+      </li>
+      <li id="slide2">
+        <img id="im2" src="Images/I1/2.jpg"/>
+     </li>
+      <li id="slide3">
+       <img id="im3" src="Images/I1/3.jpg"/>
+     </li>
+     
+    </ul>
+
+   <div class="slideMenuContainer col-5">
+    <ul class="SlideMenu">
+     <li>
+       <a href="#slide1" id="foto1">1</a>
+      </li>
+     <li>
+       <a href="#slide2" id="foto2">2</a>
+     </li>
+       <li>
+       <a href="#slide3" id="foto3">3</a>
+      </li>
+      <li>
+        <a href="#slide4" id="foto4">4</a>
+     </li>
+    </ul>
+  </div>
+  
+</div>
+
+
+<script src="SeleccionFotos.js"></script>
+</body>
+
+<footer>
+  <div class="menuPiePagina">     
+    <ul class="pieMenu">    
+          <li>
+        <img src="Images/facebook.png" class="facebook">
+      </li>
+      <li>
+        <img src="Images/Twitter.png" class="Twitter">
+      <li>
+        <img src="Images/Gmail.png" class="Gmail">
+      </li>
+      </ul>
+  </div>
+	
+</footer>
+
+</html>
